@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ccache / Python cache
+.pytest_cache/
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+*.secret
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

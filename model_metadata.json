@@ -1,0 +1,22 @@
+{
+    "project_name": "FER-2013 Facial Emotion Recognition",
+    "framework": "TensorFlow/Keras",
+    "input_shape": [
+        48,
+        48,
+        1
+    ],
+    "color_mode": "grayscale",
+    "normalization": "1.0 / 255.0",
+    "class_names": [
+        "angry",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad",
+        "surprise"
+    ],
+    "num_classes": 7,
+    "model_file": "emotion_model.keras"
+}
